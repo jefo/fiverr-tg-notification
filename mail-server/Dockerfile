@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the SMTP port
-EXPOSE 25
+EXPOSE 26
 
 # Start the application
 CMD ["npm", "start"]
