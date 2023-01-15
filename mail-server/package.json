@@ -1,0 +1,16 @@
+{
+  "name": "mail-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mailparser": "^3.6.3",
+    "nodemailer": "^6.9.0",
+    "smtp-server": "^3.11.0"
+  }
+}
