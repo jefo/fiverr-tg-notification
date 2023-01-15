@@ -1,3 +1,5 @@
+import * as dotenv from 'dotenv';
+dotenv.config();
 import { SMTPServer } from "smtp-server";
 
 const host = process.env.HOST;
@@ -28,6 +30,6 @@ const server = new SMTPServer({
   ...options,
 });
 
-server.listen(() => {
+server.listen(port, () => {
   console.log("SMTP server is listening on port", server.server.address().port);
 });
